@@ -10,7 +10,7 @@ pipeline {
       agent any
 
       steps {
-        ehco 'Awesome Student!'
+        echo 'Awesome Student!'
       }
     }
     stage('Git Information') {
